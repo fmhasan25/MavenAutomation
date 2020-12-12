@@ -1,0 +1,13 @@
+<suite name="suite">
+    <test name ="Regression">
+    <classes name="testNG">
+
+        <class name="Practice.testNG_practice"/>
+        <method exclude="testThree"></method>
+            <class name="Practice.testNG_practice02"/>
+        <class name="Practice.testNG_practice03"/>
+
+    </classes>
+    </test>
+
+</suite>

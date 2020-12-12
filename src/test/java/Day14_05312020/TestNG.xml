@@ -1,0 +1,8 @@
+<suite name = "Suite">
+    <test name = "Test">
+        <classes>
+            <class name = "Day14_05312020.List_Boolean_Abstract">
+            </class>
+        </classes>
+    </test>
+</suite>

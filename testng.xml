@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/firoz/Documents/Maven_Automation/src/test/java/Practice/practice_01.java"><classes><class name="Practice.practice_01"><methods><include name="yahooVerification"/></methods></class></classes></test></suite>

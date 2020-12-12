@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+    <test name="chrome Test" preserve-order="true">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <!-- All Person -->
+            <class name="Practice.cross_browser_testing" />
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Firefox Test" preserve-order="true">
+        <parameter name="browserName" value="firefox"></parameter>
+        <classes>
+            <!-- All Person -->
+            <class name="Practice.cross_browser_testing" />
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Edge Test" preserve-order="true">
+        <parameter name="browserName" value="ie"></parameter>
+        <classes>
+            <!-- All Person -->
+            <class name="Practice.cross_browser_testing" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
